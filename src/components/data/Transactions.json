@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "draft"
+    },
+    {
+        "id": 2,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "unapproved"
+    },
+    {
+        "id": 3,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "partial"
+    },
+    {
+        "id": 4,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "processing"
+    },
+    {
+        "id": 5,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "rejected"
+    },
+    {
+        "id": 6,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "completed"
+    },
+    {
+        "id": 7,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "completed"
+    },
+    {
+        "id": 8,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "completed"
+    },
+    {
+        "id": 9,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "completed"
+    },
+    {
+        "id": 10,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "completed"
+    },
+    {
+        "id": 11,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "completed"
+    },
+    {
+        "id": 12,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "completed"
+    },
+    {
+        "id": 13,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "completed"
+    },
+    {
+        "id": 14,
+        "refNum": "KI37C234PO",
+        "payFrom": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "payTo": "2345678654334 Title 24567654 SCBLRV234 IN INR",
+        "amount": "INR 20,000",
+        "paymentDate": "31/07/2021",
+        "paymentType": "IBFT",
+        "status": "completed"
+    }
+]
