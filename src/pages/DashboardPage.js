@@ -1,8 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/styles";
 
-import Toolbar from "../components/Toolbar.js";
-import Table from "../components/Table.js";
+import Toolbar from "../components/ManageTransactions/Toolbar.js";
+import Table from "../components/ManageTransactions/Table.js";
 
 const useStyles = makeStyles(theme => ({
   root: { padding: 15 },
@@ -11,11 +11,11 @@ const useStyles = makeStyles(theme => ({
 
 const Dashboard = () => {
   const classes = useStyles();
-  const tabs = ['All', 'Shipped', 'Processing', 'Completed'];
+  const tabs = ['All', 'Approve', 'Completed', 'Rejected','Draft'];
   const [statusFilter, setStatusFilter] = React.useState(0);
-  const [startDate, setStartDate] = React.useState(new Date("2019-01-01T00:00:00"));
-  const [finishDate, setFinishDate] = React.useState(new Date("2022-01-01T00:00:00"));
-  const [priceFilter, setPriceFilter] = React.useState([0, 200]);
+  const [startDate, setStartDate] = React.useState(new Date());
+  const [finishDate, setFinishDate] = React.useState(new Date());
+  const [priceFilter, setPriceFilter] = React.useState([0, 100]);
   const [sorting, setSorting] = React.useState(['Orders.createdAt', 'desc']);
 
   const query = {

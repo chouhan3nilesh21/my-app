@@ -22,7 +22,7 @@ import {
 } from "@material-ui/core";
 
 import StatusBullet from "./StatusBullet";
-import transactionData from './data/Transactions.json';
+import transactionData from '../data/Transactions.json';
 
 const statusColors = {
     draft: "draft",
@@ -78,8 +78,8 @@ const TableComponent = props => {
     const [page, setPage] = useState(0);
 
     const tableHeaders = [
-        { text: "ID", value: "id" },
-        { text: "Reference number", value: "refNum" },
+        { text: "ID", value: "id", },
+        { text: "Ref number", value: "refNum" },
         { text: "Pay From", value: "payFrom" },
         { text: "Pay To", value: "payTo" },
         { text: "Amount", value: "amount" },
@@ -90,7 +90,8 @@ const TableComponent = props => {
     //   const { resultSet, error, isLoading } = useCubeQuery(query, { cubejsApi });
     const resultSet = transactionData;
     const error = null;
-    const isLoading = 0;
+    const [isLoading,setIsLoading] = useState(1)
+    setTimeout(function(){ setIsLoading(0) }, 2000);
     if (isLoading) {
         return <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}><CircularProgress
             color="secondary" /></div>;
@@ -164,7 +165,7 @@ const TableComponent = props => {
                                                 {obj["payTo"]}
                                             </TableCell>
                                             <TableCell>
-                                                {"$ " + obj["amount"]}
+                                                {obj["amount"]}
                                             </TableCell>
                                             <TableCell>
                                                 {obj["paymentDate"]}

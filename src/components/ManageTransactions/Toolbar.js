@@ -186,7 +186,7 @@ const Toolbar = props => {
           m={2}
         >
           <Typography id="range-slider">
-            Order price range
+            Transaction Amount Range ($k)
           </Typography>
           <Slider
             value={rangeValue}
@@ -195,7 +195,7 @@ const Toolbar = props => {
             aria-labelledby="range-slider"
             valueLabelDisplay="auto"
             min={0}
-            max={2000}
+            max={1000}
           />
         </Grid>
       </Grid>

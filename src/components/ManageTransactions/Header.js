@@ -13,7 +13,7 @@ const Header = () => (
         <MenuIcon />
       </IconButton>
       <Typography variant="h6" color="inherit">
-        My Dashboard
+        Manage Transactions
       </Typography>
     </Toolbar>
   </AppBar>

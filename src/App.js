@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import React from 'react';
 // import cubejs from '@cubejs-client/core';
 // import { CubeProvider } from '@cubejs-client/react';
-import Header from './components/Header';
+import Header from './components/ManageTransactions/Header';
 
 // const cubejsApi = cubejs(process.env.REACT_APP_CUBEJS_TOKEN, {
 //   apiUrl: process.env.REACT_APP_API_URL
